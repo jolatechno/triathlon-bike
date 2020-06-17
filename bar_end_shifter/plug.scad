@@ -1,5 +1,6 @@
 r = 9.5;
-th = 3;
+lip = 2.5;
+th = 2;
 
 depth = 10;
 wedge = 4;
@@ -11,17 +12,16 @@ depth_cable = 10;
 
 module body() {
     union() {
-        cylinder(th, r + th, r + th);
+        cylinder(th, r + lip, r + lip);
         cylinder(th + depth, r, r);
         translate([0, 0, th + depth]) cylinder(wedge, r, r - wedge);
     }
 }
-
 module hole() {
     union() {
         cylinder(depth_cable, r_tube, r_tube);
         cylinder(th + depth + wedge, r_cable, r_cable);
-        translate([-r_cable, 0, 0]) cube([2*r_cable, r + th, th + depth + wedge]);
+        translate([-r_cable, 0, 0]) cube([2*r_cable, r + lip, th + depth + wedge]);
     }
 }
 

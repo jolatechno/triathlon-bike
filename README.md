@@ -7,9 +7,7 @@ Customizable 3D printable file used on my triathlon bike made from a road bike.
 
 I am currently using this friction shifter to control my rear derailleur. I use a 3.5mm thick rubber washer to increase friction.
 
-Here is a picture of an prior version which i used before switching to my electronic shifting system:
-
-![Alt text](./.images/_old_shifter.jpg?raw=true "old bar end shifter")
+![Alt text](./.images/shifter.jpg?raw=true "bar end shifter")
 
 ## gel clip
 
