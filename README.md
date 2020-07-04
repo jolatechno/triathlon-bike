@@ -9,6 +9,12 @@ I am currently using this friction shifter to control my rear derailleur. I use 
 
 ![Alt text](./.images/shifter.jpg?raw=true "bar end shifter")
 
+## aerodrink praying mantis adapter
+
+I use those adapter to angle my aerodrink system so it doesn't spill while my bar are angles up in a "praying mantis" position. 
+
+![Alt text](./.images/aerodrink.jpg?raw=true "bar end shifter")
+
 ## gel clip
 
 [thingverse](https://www.thingiverse.com/thing:4445370)
